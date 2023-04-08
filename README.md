@@ -10,7 +10,7 @@
 <br>
 
 <h2 align="center"> See website on live </h2>
-<p align="center">  </p>
+<p align="center"> https://quiz-app-akyua.vercel.app/ </p>
 
 <br>
 
@@ -26,5 +26,8 @@
 <h2 align="center"> Final Result of the website </h2>
 
 <div align="center">
+
+![quiizz](https://user-images.githubusercontent.com/75745796/230722621-9cc64158-4e27-4fa2-b944-de6430e09d57.png)
+![quiz](https://user-images.githubusercontent.com/75745796/230722624-397c13ab-6a56-490f-93fb-b3c34e17b7dc.png)
 
 </div>
