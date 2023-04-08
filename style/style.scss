@@ -30,7 +30,7 @@ body{
             border-radius: 0.2em;
         }
         #restart{
-            
+            margin-top: 0.9em;
         }
         #display-container{
             background-color: #FFFFFF;
@@ -43,6 +43,25 @@ body{
             top: 50%;
             left: 50%;
             border-radius: 0.6em;
+        }
+        .question{
+            margin-bottom: 1.5em;
+            font-weight: 600;
+        }
+        .option-div{
+            font-size: 0.9em;
+            width: 100%;
+            padding: 1em;
+            margin: 0.3em 0;
+            text-align: left;
+            outline: none;
+            background: transparent;
+            border: 1px solid #c0bfd2;
+            border-radius: 0.3em;
+        }
+        .option-div:disabled{
+            color: #000000;
+            cursor: not-allowed;
         }
         .header{
             margin-bottom: 1.8em;
@@ -72,6 +91,20 @@ body{
         }
         .hide{
             display: none;
+        }
+        .incorrect{
+            background-color: #ffdde0;
+            color: #d32f2f;
+            border-color: #d32f2f;
+        }
+        .correct{
+            background-color: #e7f6d5;
+            color: #689f38;
+            border-color: #689f38;
+        }
+        #user-score{
+            font-size: 1.5em;
+            color: #FFFFFF;
         }
     }
 }

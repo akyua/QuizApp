@@ -29,6 +29,9 @@ body main #start-button, body main #restart {
   padding: 0.5em 1.8em;
   border-radius: 0.2em;
 }
+body main #restart {
+  margin-top: 0.9em;
+}
 body main #display-container {
   background-color: #FFFFFF;
   padding: 3.1em 1.8em;
@@ -40,6 +43,25 @@ body main #display-container {
   top: 50%;
   left: 50%;
   border-radius: 0.6em;
+}
+body main .question {
+  margin-bottom: 1.5em;
+  font-weight: 600;
+}
+body main .option-div {
+  font-size: 0.9em;
+  width: 100%;
+  padding: 1em;
+  margin: 0.3em 0;
+  text-align: left;
+  outline: none;
+  background: transparent;
+  border: 1px solid #c0bfd2;
+  border-radius: 0.3em;
+}
+body main .option-div:disabled {
+  color: #000000;
+  cursor: not-allowed;
 }
 body main .header {
   margin-bottom: 1.8em;
@@ -69,4 +91,18 @@ body main #next-button {
 }
 body main .hide {
   display: none;
+}
+body main .incorrect {
+  background-color: #ffdde0;
+  color: #d32f2f;
+  border-color: #d32f2f;
+}
+body main .correct {
+  background-color: #e7f6d5;
+  color: #689f38;
+  border-color: #689f38;
+}
+body main #user-score {
+  font-size: 1.5em;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
